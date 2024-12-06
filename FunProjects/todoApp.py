@@ -4,7 +4,7 @@ class TodoList:
 
     def add_task(self, task):
         self.tasks.add(task)
-        print(f"Task '{task}' added.")
+        print(f"Task '{task}' added to the list.")
 
     def remove_task(self, task):
         if task in self.tasks:
