@@ -14,4 +14,3 @@ if __name__ == "__main__":
     opr  = input("Enter the Operator:")
     result = calculator(n1,n2,opr)
     print(result)
-    
